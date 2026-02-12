@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAI.RapidApi", "NetAI.RapidApi\NetAI.RapidApi.csproj", "{4EB8AE01-07C9-48BF-B463-A51F9392A298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAI.OpenAIChat", "NetAI.OpenAIChat\NetAI.OpenAIChat.csproj", "{2954771A-9681-4F7F-8AA9-9D15DBCAB99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB8AE01-07C9-48BF-B463-A51F9392A298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB8AE01-07C9-48BF-B463-A51F9392A298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB8AE01-07C9-48BF-B463-A51F9392A298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB8AE01-07C9-48BF-B463-A51F9392A298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2954771A-9681-4F7F-8AA9-9D15DBCAB99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2954771A-9681-4F7F-8AA9-9D15DBCAB99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2954771A-9681-4F7F-8AA9-9D15DBCAB99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2954771A-9681-4F7F-8AA9-9D15DBCAB99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
